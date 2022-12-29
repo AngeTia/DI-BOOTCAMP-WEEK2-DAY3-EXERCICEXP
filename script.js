@@ -121,11 +121,12 @@ const details = {
     the: 'raindeer'
   }
 
+let newDetail = Object.entries(details) 
 // 1. Given the object above and using a for loop, console.log “my name is Rudolf the raindeer”
-for (const keyDetail in details) {
-    if (details[keyDetail] = "Rudolf") {
-        console.log(`my name is ${details[keyDetail]} the raindeer`);
-    }  
+for (let i=0; i< newDetail.length; i++) {
+    for (let j=0; j< newDetail[i].length;j++){
+        console.log(newDetail[i][j])
+    }
 }
 
 /*-------------------------Exercise 7 : Secret Group--------------------------------*
