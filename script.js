@@ -138,5 +138,5 @@ Console.log the name of their secret society. The output should be “ABJKPS”*
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
 
 names.sort();
-firtsIndex = `${names[0][0]}${names[1][0]}${names[2][0]}${names[3][0]}${names[4][0]}${names[5][0]}`
+firtsIndex = `The society name's : ${names[0][0]}${names[1][0]}${names[2][0]}${names[3][0]}${names[4][0]}${names[5][0]}`
 console.log(firtsIndex);
